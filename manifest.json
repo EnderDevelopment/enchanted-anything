@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Ender Universal Enchants",
+    "description": "Use any enchantment on any item and trade resources for random enchanted books.",
+    "uuid": "c4b25b42-4f82-4c84-91fb-4b9f250c0e11",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "0c4ac0af-0b31-46ab-a1d2-d87d2012b3d9",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "7c845414-4f75-4b1d-95f3-0b0e44b95b84",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0"
+    }
+  ]
+}
